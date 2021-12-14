@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- location icon links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- flag links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- navbar links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- corousel links -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
+
+
+    <title>Header</title>
+    <link rel="stylesheet" href="amazon.css">
+
+    
+</head>
+<body>
+    <!-- header -->
+
+    <header class="head">
+
+
+        <div><img src="images/logo.png" width="130px" height="50px"></div>
+        <!-- location -->
+        <div class="hello">
+            <button type="button" style="background-color: #0F2027; color: #FFFF; border: none;" data-bs-toggle="modal"
+                data-bs-target="#mymodal">
+                <div style="margin-left: -120px;">Hello</div>
+                <div><i class="fa fa-map-marker" style="font-size: large;"></i><b>Select your Address</b></div>
+            </button>
+        </div>
+        <div class="modal fade" id="mymodal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Header -->
+                    <div class="modal-header" style="background-color: rgb(243, 243, 243);">
+                        <h4 class="modal-title">Select your location</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <!-- Body    -->
+                    <div class="modal-body">
+                        <p>Select a delivery location to see product availability and delivery options</p>
+                        <button type="button" style="background-color: rgb(235, 166, 38); width: 300px; margin-left: 30px; border-radius: 5px; border: none;">Sign in to see your addresses</button>
+
+                    </div>
+                    <!-- Footer -->
+                    <div class="modal-footer">
+                        <input type="text" style="width: 280px; border-radius: 5px; border:1px solid gray;">
+                        <button type="button" style="border-radius: 5px; border: none;" data-bs-dismiss="modal">
+                            Apply
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- searchbar -->
+
+        <div>
+            <select class=al>
+                <option>All</option>
+                <option>Mobile</option>
+                <option>Accessories</option>
+                <option>Clothes</option>
+                <option>Headset</option>
+            </select>
+        </div>
+
+
+        <div class="form-outline">
+            <input type="search" placeholder="search" />
+        </div>
+
+
+        <button class="bts" type="search"
+            style="background-color: rgb(196, 155, 52); width: 50px; height:37px; margin-top: 5px; border-bottom-right-radius: 5px;border-top-right-radius: 5px; margin-left: -50px; border: none;"><i
+                class="bi bi-search"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg>
+        </button>
+        <!-- flag -->
+        <div class="dropdown" style="margin-left: 10px; padding-top: 10px;">
+            <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"
+                style=" border:none; background-color: #0F2027 ;">
+                <img src="images/Flag.png.png" width="25px" height="20px">
+            </button>
+            <ul class="dropdown-menu">
+                <li>
+                    <p class="dropdown-item">English-EN</p>
+                </li>
+                <li>
+                    <p class="dropdown-divider"></p>
+                </li>
+                <li><a href="#" class="dropdown-item">Hindi</a></li>
+                <li><a href="#" class="dropdown-item">Tamil</a></li>
+                <li><a href="#" class="dropdown-item">Telugu</a></li>
+                <li><a href="#" class="dropdown-item">Kannada</a></li>
+                <li><a href="#" class="dropdown-item">Marati</a></li>
+                <li><a href="#" class="dropdown-item">Malayali</a></li>
+                <li><a href="#" class="dropdown-item">Gujarati</a></li>
+                <li>
+                    <p class="dropdown-divider"></p>
+                </li>
+                <li><img src="images/Flag.png.png" width="25px" height="15" class="dropdown-item"> You are shopping on
+                    Amazon.in</li>
+                <li><a href="#" style="color: blue;" class="dropdown-item">
+                        <p>Change country/region</p>
+                    </a></li>
+            </ul>
+        </div>
+
+        <div class="sign">
+            <a href="./login.html"><div>Hello,Sign in</div>
+            <div><b>Accounts & Lists</b></div></a>
+        </div>
+
+        <div class="returns">
+            <div>Returns</div>
+            <div>& Orders</div>
+        </div>
+
+        <div>
+            <i class="fa fa-shopping-cart"
+                style="font-size:36px;color:white; padding-top:10px; margin-left: 20px;"></i>Cart
+        </div>
+
+    </header>
+    <!-- navbar -->
+
+    <nav class="nav_bar">
+        <ul>
+            <!-- Offcanvas -->
+
+            <li class="but"><i class="bi bi-list"></i>
+                <div class="container-fluid">
+                    <div class="offcanvas offcanvas-start" id="side">
+                        <div class="offcanvas-header">
+                            <h3 class="offcanvas-title"><b>Hello,sign in</b></h3>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <p><b>Trending</b></p>
+                            <p><a href="#" class="canvas">Best Sellers</a></p>
+                            <p><a href="#" class="canvas">New Releases</a></p>
+                            <p><a href="#" class="canvas">Movers and Shakers</a></p>
+                            <hr>
+                            <p><b>Digital Content And Devices</b></p>
+                            <p><a href="#" class="canvas">Echo & Alexa</a></p>
+                            <p><a href="#" class="canvas">Fire Tv</a></p>
+                            <p><a href="#" class="canvas">Kinder E-Readers & eBooks</a></p>
+                            <p><a href="#" class="canvas">Audible Audiobooks</a></p>
+                            <p><a href="#" class="canvas">Amazon Prime Video</a></p>
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn" data-bs-toggle="offcanvas" data-bs-target="#side">
+                        <i class="bi bi-list"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-list"
+                            viewBox="0 0 16 16" style="color: white;">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg><span style="color: white;">All</span>
+                        <!-- Menu -->
+                    </button>
+                </div>
+            </li>
+            <li style="margin-left: -25px;" class="na">Mobiles</li>
+            <li class="na">Best Sellers</li>
+            <li class="na">Customer Service</li>
+            <li class="na">Fashion</li>
+            <li class="na">Prime</li>
+            <li class="na">Home&Kitchen</li>
+            <li class="na">Amazon Pay</li>
+            <li class="na">Baby Store</li>
+            <li class="na"><img src="./images/img.PNG" height="30px" style="margin-left: 40px;"></li>
+        </ul>
+    </nav>
+    <!-- mobiles -->
+    <nav class="mobile">
+        <ul>
+            <li><a href="#"><b>Electronics</b></a></li>
+            <li><a href="#">Mobiles&Accessories</a></li>
+            <li><a href="#">Laptop&Accessories</a></li>
+            <li><a href="#">TV & Home Entertainment</a></li>
+            <li><a href="#">Audio</a></li>
+            <li><a href="#">Cameras</a></li>
+            <li><a href="#">Computer Peripherals</a></li>
+            <li><a href="#">Smart Technology</a></li>
+            
+        </ul>
+    </nav>
+    <hr>
+    <!-- body -->
+    <div style="display: flex;">
+        <div class="Mgrid"> <p>Department</p>
+            <p> Electronics</p>
+            <p>Accessories</p>
+            <p>Cameras & Photography</p>
+            <p> Car & Vehicle Electronics</p>
+            <p>Computers & Accessories</p>
+            <p>GPS & Accessories</p>
+            <p> Headphones</p>
+            <p>Home Audio</p>
+            <p> Home Theater, TV & Video</p>
+            <p>Mobiles & Accessories</p>
+            <p>Portable Media Players</p>
+            <p> Tablets</p>
+            <p>Telephones & Accessories</p>
+            <p> Warranties</p>
+            <p> Wearable Technology</p>
+            <p>General Purpose Batteries & Battery Chargers</p>
+            <p>Power Accessories</p>  
+        </div>
+        <div>
+        <div class="Mgrid1">
+            <div class="Mcard1">
+                <img src="./images/Mcard1/Mcard11.PNG" height="230px" width="230px">
+            </div>
+            <div class="Mcard1">
+                <img src="./images/Mcard1/Mcard12.PNG" height="230px" width="230px">
+            </div>
+            <div class="Mcard1">
+                <img src="./images/Mcard1/Mcard13.PNG" height="230px" width="230px">
+            </div>
+            <div class="Mcard1">
+                <img src="./images/Mcard1/Mcard14.PNG" height="230px" width="230px">
+            </div>
+        </div>
+        <div class="Mgrid2">
+            <div class="Mcard2">
+                <img src="./images/Mcard1/Mcard15.PNG" height="230px" width="230px">
+            </div>
+            <div class="Mcard21">
+                <img src="./images/Mcard1/Mcard16.PNG" height="230px" width="230px">
+            </div>
+            <div class="Mcard21">
+                <img src="./images/Mcard1/Mcard17.PNG" height="230px" width="230px">
+            </div>
+            <div class="Mcard21">
+                <img src="./images/Mcard1/Mcard18.PNG" height="230px" width="230px">
+            </div>
+        </div>
+        <div>
+            <img src="./images/Mcard1/Mcard2.PNG">
+        </div>
+        <div>
+            <img src="./images/Mcard1/Mcard3.PNG">
+        </div>
+        <div>
+            <img src="./images/Mcard1/Mcard4.PNG">
+        </div>
+    </div>
+</div>
+<!-- footer -->
+<footer>
+    <div style="text-align: center; background-color: #344352; color: white; height: 50px;">
+        <h5 style="padding-top: 18px;">Back to top</h5>
+    </div>
+    <div class="ft">
+        <div class="ft_in">
+
+            <h4>Get to Know Us</h4>
+            <p>About Us</p>
+            <p> Careers</p>
+            <p> Press Releases</p>
+            <p> Amazon Cares</p>
+            <p>Gift a Smile</p>
+
+        </div>
+        <div class="ft_in">
+
+            <h4> Connect with Us</h4>
+            <p>Facebook</p>
+            <p>Twitter</p>
+            <p>Instagram</p>
+
+        </div>
+        <div class="ft_in">
+            <h4>Make Money with Us</h4>
+            <p> Sell on Amazon</p>
+            <p> Sell under Amazon Accelerator</p>
+            <p> Amazon Global Selling</p>
+            <p> Become an </p>
+            <p> Fulfilment by Amazon</p>
+            <p> Advertise Your Products</p>
+            <p> Amazon Pay on Merchants</p>
+        </div>
+        <div class="ft_in">
+            <h4>Let Us Help You</h4>
+            <p> COVID-19 and Amazon</p>
+            <p> Your Account</p>
+            <p> Returns Centre</p>
+            <p> 100% Purchase Protection</p>
+            <p> Amazon App Download</p>
+            <p> Amazon Assistant Download</p>
+            <p> Help</p>
+        </div>
+    </div>
+    <br>
+    <hr style="background: #fff" ; />
+    <br>
+    <div class="ft_1">
+        <img src="./images/logo.png" style="margin-left: 450px; width: 80px;height: 50px; margin-top: -10px;">
+        <p style="justify-content: center;">Australia | Brazil | Canada | China | France | Germany | Italy | Japan |
+            Mexico | Netherlands | Poland |
+            Singapore | Spain | Turkey | United Arab Emirates | </p>
+        <p style="text-align: center;"> United Kingdom | United States </p>
+    </div>
+    <div class="ft3">
+        <div class="ft3_in">
+            <h6>AbeBooks</h6>
+            <p>Books, art</p>
+            <p>& collectibles</p>
+            <h6>Amazon Web Services</h6>
+            <p>Scalable Cloud</p>
+            <p>Computing Services</p>
+        </div>
+        <div class="ft3_in">
+            <h6>Audible</h6>
+            <p>Download</p>
+            <p>Audio Books</p>
+            <h6>DPReview</h6>
+            <p>Digital</p>
+            <p>Photography</p>
+        </div>
+        <div class="ft3_in">
+            <h6>IMDb</h6>
+            <p>Movies, TV</p>
+            <p>& Celebrities</p>
+
+            <h6>Shopbop</h6>
+            <p>Designer</p>
+            <p>Fashion Brands</p>
+        </div>
+        <div class="ft3_in" >
+            <h6>Amazon Business</h6>
+            <p>Everything For</p>
+            <p>Your Business</p>
+            <h6>Prime Now</h6>
+            <p>2-Hour Delivery</p>
+            <p>on Everyday Items</p>
+        </div>
+        <div class="ft3_in">
+            <h6>Amazon Prime Music</h6>
+            <p>75 million songs, ad-free</p>
+            <p>Over 10 million podcast episodes </p>
+        </div>
+
+        </div>
+        <div class="ft4">
+            <p>Conditions of Use & Sale  Privacy Notice  Interest-Based Ads  © 1996-2021, Amazon.com, Inc. or its affiliates</p>
+        </div>
+</footer>
+</body>
+</html>
